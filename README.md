@@ -25,9 +25,9 @@ It wrote the code, ran away, and now the game is unplayable.
 
 ## 📝 Document Your Experience
 
-- [ ] Describe the game's purpose.
-- [ ] Detail which bugs you found.
-- [ ] Explain what fixes you applied.
+- The purpose of the game is to have the user guess a randomly generated number between 1-100 with x amount of guesses with x depenfing on the diffculty. After each guess the user gets notified whether their guess hsould be higehr or lower than the number they provided.
+- The two main bugs which I found the game sometimes marked incorrect guesses as correct because the secret number was being converted into a string, causing improper comparisons and the New Game button did not fully reset the game because not all session state variables were reinitialized
+- I fixed the incorrect win logic by removing the conversion of the secret number to a string, ensuring that guesses are always compared as integers and I also fixed the New Game bug by resetting all relevant session state variables (such as attempts, score, status, and history) so the game properly restarts.
 
 ## 📸 Demo
 
