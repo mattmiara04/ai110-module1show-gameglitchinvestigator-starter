@@ -5,8 +5,12 @@ Answer each question in 3 to 5 sentences. Be specific and honest about what actu
 ## 1. What was broken when you started?
 
 - What did the game look like the first time you ran it?
+The game had a very minimal interface with typical HTML. It includes a title with a box to input your guess along with other buttons to intearct with the system.
+
 - List at least two concrete bugs you noticed at the start  
   (for example: "the secret number kept changing" or "the hints were backwards").
+  My first guess was 13 and the game rutrned to me that my guess was correct eventhough the true secret number was 67
+  The New Game button did not reset my game after the app was updated to be in a "win" state. The message "You already won. Start a new game to play again" did not leave my screen.
 
 ---
 
